@@ -6,7 +6,7 @@ class TestApp(unittest.TestCase):
     def test_greet(self):
         self.assertEqual(
             greet(),
-            "Hello from Updated CI/CD Pipeline!"
+            "Hello from Modified CI/CD Pipeline!"
         )
 
 if __name__ == "__main__":
